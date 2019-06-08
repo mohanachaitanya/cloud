@@ -56,7 +56,7 @@ Parameters:
   ImageId:
     Description: Amazon Machine Image ID
     Type: String
-    Default : "ami-04768381bf606e2b3"
+    Default : "ami-0756fbca465a59a30"
   KeyPair:
     Description: Name of an existing EC2 KeyPair to enable SSH access to the instance
     Type: AWS::EC2::KeyPair::KeyName
@@ -67,7 +67,7 @@ Parameters:
   VPCAvailabilityZone:
     Description: VPCAvailabilityZone
     Type: String
-    Default: us-east-2a
+    Default: us-east-1a
 Resources:
   VPC:
     Type: AWS::EC2::VPC
